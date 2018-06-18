@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 5px;
+}
+
+#fullSection {
+    margin-top:20px;
+    background-image: url(../images/light-grey-terrazzo.png);
+    overflow: auto;
+    clear: both;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    color: grey; 
+    clear: left;
+    width: 1000px;
+    height:100%;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-bottom: 150px;
+    margin-top:20px;
+    background-color:white;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
