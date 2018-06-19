@@ -1,15 +1,21 @@
 h1{
+  font-family: 'Ultra', serif;
     text-align: center;
     height: 50px;
     width: 1000px;
     background-color: white;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 4px solid #cccccc;
     border-radius: 5px;
 }
 
+p{
+  font-family: 'Oleo Script', cursive;
+}
+
 #fullSection {
-    margin-top:20px;
     background-image: url(../images/light-grey-terrazzo.png);
+    padding:45px;
+    border-top: 1.5px black solid;
     overflow: auto;
     clear: both;
     width: 100%;
@@ -17,15 +23,24 @@ h1{
 }
 
 #content {
+    border-radius: 5px;
+    margin-top: 1em;
     color: grey; 
     clear: left;
     width: 1000px;
     height:100%;
     padding: 20px;
-    border: 1px solid #dddddd;
     margin-bottom: 150px;
-    margin-top:20px;
+    margin-top:1px;
     background-color:white;
+}
+
+#footer {
+  margin-top: .5em;
+  border-top: 1px black solid;
+  border-width: 1.5pt;
+  background-color: white;
+  /* background-image: url(../images/light-grey-terrazzo.png); */
 }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
